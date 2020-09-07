@@ -5,6 +5,8 @@ The App.tsx file contains the code for a Rich Text Editor that does correctly ha
 When I downloaded the [slate repository](https://github.com/ianstormtaylor/slate) and modified richtext.tsx in site/examples to be
 the code that is in App.tsx of this project, it created the desired editor.
 
+You can see a screen recording of this functionality [here](https://youtu.be/zB3jIC67fSs)
+
 However, when I try and run this project within the Django app here, I get a [Hooks error](https://reactjs.org/warnings/invalid-hook-call-warning.html)
 corresponding to slate.tsx:23 in the slate package I installed in my computer. This may be because it's calling useState
 in the second line of the function? Although I'm not sure why this wouldn't cause an error when I run it as part of the
